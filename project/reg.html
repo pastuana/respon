@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let reg = new RegExp ('abc', 'i')
+        let reg2 = /abc/
+
+        //Поиск совпадения (True/False) >> regExp.test(str)
+        let str = 'aaBcDD'
+        
+        //сравнение строки на соответствие шаблону .match >> String.match (RegExp)
+
+        let str2 = `I love js but JS doesn't love me jS, Js`
+        let newReg = /JS/ig
+
+        console.log (str2.match (newReg))
+
+        let str3 = '+7-(999)-666-99-66'
+        let str4 = 'lorem Ipsum doLor'
+
+        
+
+    </script>
+</body>
+</html>
